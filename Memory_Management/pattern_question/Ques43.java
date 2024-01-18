@@ -1,6 +1,6 @@
 package Memory_Management.pattern_question;
 import java.util.Scanner;
-public class Ques42 {
+public class Ques43 {
      /*
               *
              ***
