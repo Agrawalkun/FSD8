@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .heading {
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .bg-container {
+            border: 2px solid black;
+            height: 100vh;
+            width: 500px;
+            margin: 0px auto;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 6px;
+
+        }
+
+        .class {
+            display: flex;
+            flex-direction: row;
+        }
+
+        /* #dob {
+            /* height: 33px; 
+        }
+
+        #about {
+            /* height: 980px; 
+        }
+
+        .space {
+            /* padding-top: 15px; 
+        } */
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <h1 class="heading">Form</h1>
+        <div class="bg-container">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name" id="name">
+            <label for="number">Mobile no.:</label>
+            <input type="tel" placeholder="Enter your Number" id="number">
+            <div class="class ">
+                <strong>Gender:</strong>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="Male">
+                <label for="male">Female</label>
+                <input type="radio" id="female" name="Male">
+                <label for="male">Other</label>
+                <input type="radio" id="other" name="Male">
+            </div>
+            <label for="pass">Password:</label>
+            <input type="password" placeholder="Enter your password" id="pass">
+            <label for="gmail">Gmail:</label>
+            <input type="email" placeholder="Enter your gmail" id="gmail">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" placeholder=" date of birth" id="dob">
+            <label for="link">Link:</label>
+            <input type="url" placeholder=" Enter the link" id="link">
+            <label for="lang">Language:</label>
+            <select name="language" id="lang">
+                <option value=" ">Select language option</option>
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Other">Other</option>
+            </select>
+            <label for="file">Document:</label>
+            <input type="file" placeholder=" Choose file" id="file">
+            <label for="about">About:</label>
+            <textarea type="text" placeholder=" write about yourself" id="about"></textarea>
+            <div class="class "><input type="checkbox" class="block">
+                <p>Above information is correct</p>
+            </div>
+            <input type="color" id="colour">
+            <label for="imag">Resume:</label>
+            <input type="image" id="imag">
+            <label for="range">Possibilities:</label>
+            <input type="range" id="range">
+            <input type="submit" id="submit">
+
+        </div>
+    </form>
+</body>
+
+</html>

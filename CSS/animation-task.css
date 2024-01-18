@@ -1,0 +1,28 @@
+div{
+    width: 100px;
+    height: 100px;
+  background: linear-gradient((65px,65px,65px),(255px ,255px ,255px));
+    border-radius: 57%;
+    animation-name: gravity;
+    animation-duration: 900ms;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    animation-iteration-count:infinite ;
+
+
+}
+@keyframes gravity {
+    0%{
+        background-color: rgb(172, 127, 255);
+        transition: linear;
+        transform: translateY(0px) ;
+        
+      
+    }
+    /* 100%{
+transform:translateY(60vh)rotate(360deg);
+    } */
+    100%{
+        transform: translateY(95vh)rotate(360deg);
+    }
+}

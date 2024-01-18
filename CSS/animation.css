@@ -1,0 +1,36 @@
+div{
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+animation-name: anime;
+animation-duration: 10s;
+animation-timing-function: ease-in-out;
+
+}
+@keyframes anime {
+    0%{
+        width: 650px;
+        height: 650px;
+        background-color: aquamarine;
+    }
+    25%{
+        width: 650px;
+        height: 650px;
+        border-radius: 40%;
+        background-color: rgb(255, 127, 144);
+        transform: translate(600px);
+    }
+    50%{
+        border-radius: 70%;
+        width: 60vw;
+    }
+    75%{
+        width: 100vw;
+        border-radius: 100%;
+    }
+    100%{
+        background-color: brown;
+        transform: scale(60deg);
+    }
+    
+}

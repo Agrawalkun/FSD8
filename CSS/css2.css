@@ -1,0 +1,29 @@
+/* position property 
+4type:
+1. relative - offset kam krta h aur ye current position se / initial position is move krta h
+2. absolute - offset kaam krta h aur
+3. static - offset ki value kam nhi krti  ye hmaesha by default rhti h
+4.fixed*/
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+div:nth-of-type(1){
+    background-color: aqua;
+}
+div:nth-of-type(2){
+    background-color: rgb(255, 0, 255);
+    position: relative; /* apne initial position se move hua h*/
+    top: 100px;
+}
+div:nth-of-type(3){
+    background-color: rgb(255, 60, 0);
+    position: absolute; /* ek virtual screen bn jati h uspe shift ho jata h to original me space create ho jata h aur ydu side me koi block ho to wo uski jagah shift ho jata h aur jb position dete h to apne parents se position shift hoti h*/
+    top: 50px;
+}
+div:nth-of-type(4){
+background-color: rgb(43, 226, 67);
+position: fixed;
+top: 200px; /* ek virtual screen bn jati h uspe shift ho jata h to original me space create ho jata h aur ydu side me koi block ho to wo uski jagah shift ho jata h aur jb position dete h to apne parents se position shift hoti h aur wo fix ho jsyega kitna bhi scroll kr lo wo whi rahegA*/
+}

@@ -1,0 +1,105 @@
+/* selector */
+/* Universal selector=*
+it is a selector which is used to select all  the elements of the website
+2. Id selector(#) : call a particular element
+3. Class selector (.): call a  multiple elements
+4.Element selector : call by a tag name
+5. Input Selector:
+ Attributte selector  */
+ *{ /* in universal selector(*) every property apply on the each and every element of the html.*/
+    margin: 0px;
+    padding:0px; 
+ }
+#hello{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hy{
+text-decoration: underline;
+}
+input[type ='text']{
+border:3px solid rgb(128, 0, 79);
+}
+a[href^='https']{
+    color: rgb(223, 226, 223);
+    background-color: blue;
+    margin-top: 50px; 
+
+    /* select by starting point*/
+  
+}
+a[href$='.in'] {
+    margin-top: 150px;
+    background-color: chartreuse;
+    /* select by ending point */
+}
+a[href*='insta']{
+    background-color: darkslategrey;
+     /* select by any substring point */
+}
+section p{
+    font-size: 60px;
+}
+section >p{
+    color: burlywood;
+}
+.div-y{
+    background-color:darkkhaki ;
+height: 200px;
+width: 100vw;
+    
+}
+section div:nth-of-type(2){
+background-color: cadetblue;
+height: 200px;
+width: 100vw;
+}
+.div{
+    width: 300px; /*  absolute unit - it is independent unit*/
+    height: 300px;
+    background-color: darkmagenta;
+}
+#child{
+    width: 50%; /* relative unit - it depends upon the parents*/
+    height: 50%;
+    background-color: rgb(30, 0, 139);
+    box-sizing: border-box;
+}
+#child p{
+color: beige;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 12px;
+}
+#view-port{
+    width: 100vw;
+    height: 100vh;
+    background-color: chartreuse;
+}
+.li{
+    font-size: 2rem; /* html  ne jo width and height  di hui h uske according hi change krta h*/
+}
+ul{
+    font-size: 2em; /* parents ke according child ki properties change hogi*/
+}
+.box-model{
+    border: 2px solid red;
+    width: 80vw;
+    height: 10vh;
+    padding: 10px;
+    margin: 40px;
+    box-sizing: border-box;
+}
+h1{
+    margin: 0px;
+}
+span{
+    display: inline-block; /* it make the element as a block element but with the inline property of the span*/
+    width: 60vw;
+    height: 10vh;
+    background-color: cadetblue;
+}
+#box-model{
+    display: none; /* it remove the element fully*/
+}
+#box{
+    visibility: hidden; /* in this element is exist but it is not visibile.*/
+}

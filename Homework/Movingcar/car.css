@@ -1,0 +1,48 @@
+div{
+    width: 200px;
+    height:200px;
+    /* background: linear-gradient(red,green,yellow); */
+    animation-name: car;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-timing-function: ease-in;
+    /* animation-name: another; */
+    /* position: elative; */
+    
+    /* animation-direction: alternate; */
+    
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+@keyframes car {
+    0%{
+        transform: translateX(0px);
+        /* left: 0px; */
+    }
+    50%{
+        transform: translateX(82vw) ;
+        /* left:100% */
+    }
+    70%{
+        transform: rotateY(180deg);
+    }
+
+    100%{
+        transform: translateX(0) rotateY(180deg);
+
+        /* transform: rotateY(360deg) */
+        /* left: 0%; */
+        
+        
+
+    }
+    /* 100%{
+        transform: translateX(0vw);
+    } */
+    
+
+    
+}

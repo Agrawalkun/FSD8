@@ -1,0 +1,30 @@
+body{
+    perspective-origin: 900px;
+}section{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    transition: 2s;
+    transform-style: preserve-3d;
+}
+section:hover{
+  
+    transform: rotateY(180deg);
+}
+#div-A , #div-B{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    backface-visibility: hidden; /* it is used to hidden the backfaceof any div. and it only applicable when we appl the property of transform style :3d-preserve in the parent */
+}
+#div-A{
+    background-color: cadetblue;
+    z-index: 1; /* it is used because jo div phle dikhana h */
+
+}
+#div-B{
+    background-color: rgb(160, 95, 144);
+    transform: rotateY(180deg);
+    
+}
+
