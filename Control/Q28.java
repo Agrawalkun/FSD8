@@ -8,7 +8,7 @@ public class Q28 {
     static int quotient;
 
     public static void main(String[] args) {
-        int number = 123678;
+        int number = 223678;
         int num = number;
         reverse_number = 0;
         for (int i = 0; i <=number; i++) {
@@ -18,7 +18,7 @@ public class Q28 {
         }
 
         System.out.println(number);
-        reverse_number = reverse_number * 10 +1;
+        reverse_number = reverse_number * 10 +number;
         System.out.println(reverse_number);
         if (reverse_number == num) {
             System.out.println(num + " equal to reverse number");

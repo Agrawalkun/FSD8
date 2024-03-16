@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url('https://img.freepik.com/free-photo/movie-background-collage_23-2149876003.jpg') no-repeat;
+            background-size: cover;
+        }
+
+        .card {
+            width: 26vw;
+            height: 60vh;
+            /* border: 2px solid rgb(8, 8, 8); */
+            margin: 7rem auto;
+            margin-bottom: 3rem;
+            /* border-radius: 0.5rem; */
+            box-shadow: 10px 15px 13px 3px #291c1cd1;
+            background: linear-gradient(138deg, #675e5e94, #cbc4c4c7, rgb(0 0 0));
+            /* animation: fly; */
+        }
+
+        h3 {
+            margin-left: 0.9rem;
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .image {
+            width: 26vw;
+            height: 40vh;
+            color: aliceblue;
+            /* border: 2px solid red; */
+            /* margin-left: 0.9rem; */
+            /* margin-right: 0.5rem; */
+            /* margin-top: 1rem; */
+            text-align: center;
+            background: url('https://img.freepik.com/free-photo/breathtaking-sunset-evening_181624-35011.jpg') no-repeat;
+
+            background-size: cover;
+            /* border-top-right-radius:0.5rem ;
+    border-top-left-radius:0.5rem ; */
+        }
+
+        input {
+            width: 20vw;
+            height: 5vh;
+            border-radius: 2rem;
+            margin-left: 0.9rem;
+
+        }
+
+
+        button {
+            width: 3vw;
+            height: 6vh;
+            border-radius: 5rem;
+        }
+
+        .div {
+            margin-top: 1rem;
+            display: grid;
+            grid-template-columns: 1fr 900px;
+            grid-template-rows: 1fr;
+            grid-auto-rows: 300px;
+            grid-auto-columns: 80px;
+            /* grid-gap: 4px; */
+
+            img {
+                width: 25vw;
+                height: 40vh;
+
+                float: left;
+
+                /* padding: 3%; */
+            }
+
+        }
+    </style>
+    </head>
+
+    <body>
+
+
+        <!-- <div class="card"> -->
+        <!-- <div class="image">
+        </div>
+        <h3 class="heading-3">Weather</h3> -->
+        <!-- <p class="para">This brand pudding give you all the Fall Feels </p> -->
+        <div class="div">
+            <!-- <i class="fa-solid fa-user"></i> -->
+            <input type="text" placeholder="Enter city name">
+            <button class="btn">search</button>
+        </div>
+        <!-- </div> -->
+        <script src="/JAVASCRIPT/movie.js"></script>
+    </body>
+
+</html>

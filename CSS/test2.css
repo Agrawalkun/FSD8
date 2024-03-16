@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: max-content; 
+    background:linear-gradient(45deg, #85388f80, #9b9911a8);
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background:linear-gradient(45deg, #85388f80, #9b5d11a8); 
+    height: 15vh;
+}
+.ul{
+    width:80%;
+    /* height: 2.5rem; */
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    margin: 1.5rem auto;
+}
+li{
+    font-size: 1.4rem;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(173, 28, 76);
+    text-decoration-color: rgb(173, 28, 76);
+}
+#stablo{
+    font-size: 4.5rem;
+    font-family: 'Tangerine', cursive;
+    font-style: italic;
+    font-weight: bolder;
+   
+}
+ #link-stablo:hover {
+    text-decoration: none;
+    color: #000;
+    transform:translateY(-7%);
+}
+.heading{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-shadow: 2px 6px 4px #332424e6
+}
+.paragraph{
+    text-align: center;
+    margin-top: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #434141;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.card-container{
+    /* width: 70vw; */
+    height: max-content;
+    /* border: 2px solid red; */
+    margin: 4.9rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    width: min-content;
+    height: max-content;
+    /* border: 2px solid rgb(8, 8, 8); */
+    margin: auto;
+    box-shadow: 10px 15px 13px 3px #291c1cd1;
+    background:linear-gradient(45deg, #fcfcfcf1, #fdfdfdef,rgba(243, 241, 243, 0.932));
+}
+#card-1{
+    animation: slide-1 1.7s ease-in-out;
+}
+#card-2{
+    animation: slide-2 1.5s ease-in-out;
+}
+#card-3{
+    animation: slide-3 1s ease-in-out;
+}
+#card-4{
+    animation: slide-4 1s ease-in-out;
+}
+#card-5{
+    animation: slide-5 1.5s ease-in-out;
+}
+#card-6{
+    animation: slide-6 1.7s ease-in-out;
+}
+.image{
+    width: 24vw;
+    height: 37vh;
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.card:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.heading-3{
+    color: crimson;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    font-weight: bolder;
+}
+.para{
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-left: 0.3rem;
+    margin-top: 0.4rem;
+    padding-right: 3rem;
+}
+.text{
+    color: #f50303;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bolder;
+    margin-right: 1.5rem;
+    margin-top: .5rem;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-left: 0.4rem;
+    margin-bottom: 1rem;
+}
+.date{
+    margin-right: 1rem;
+    font-size: 1rem;
+    border-radius: .3rem;
+    padding: .5rem 1rem .5rem 1rem;
+    font-weight: bolder;
+    background-color: cadetblue;
+    font-family: "Vollkorn", serif;
+}
+.menu{
+    font-size: 2.3rem;
+    border: 2px solid red;
+}
+#clear{
+    visibility: hidden;
+}
+#id{
+    margin-left: 10rem;
+}
+.nav{
+    width: 25rem;
+    height: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: end; */
+    border: 2px solid black;
+    position: absolute;
+    left: 72.4%;
+    margin: -6.7rem auto;
+    background: linear-gradient(16deg ,#0e0e0e,#0c0c0ce0,#000000e3);
+}
+.ulist{
+   text-decoration: none;
+  
+}
+.list{
+    list-style-type: none;
+    margin:4rem;
+    color: #ffff;
+}
+@keyframes slide-1 {
+    0%{
+        transform:  translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes slide-2 {
+    0%{
+        transform:  translateX(-200%);
+    }
+    100%{
+        transform: translateX(1%);
+    }
+}
+ @keyframes slide-3 {
+    0%{
+        transform:  translateX(-300%);
+      
+    }
+    100%{
+        transform: translateX(2%);
+    }
+}
+@keyframes slide-4 {
+    0%{
+        transform: translateX(400%);
+     
+    }
+    100%{
+        transform: translateX(2%);
+    }
+}
+@keyframes slide-5 {
+    0%{
+        transform: translateX(300%);
+        
+    }
+    100%{
+        transform: translateX(1%);
+    }
+}
+@keyframes slide-6 {
+    0%{
+        transform:  translateX(200%);
+      
+    }
+    100%{
+        transform: translateX(0);
+    }
+} 
+@media screen and (max-width:319px) {
+    .card-container{
+        margin:  2rem auto
+    }
+    .navbar{
+        height: 10vh;
+    }
+    .card{
+        height:min-content;
+        width: min-content;
+        margin:  1rem auto;
+    } 
+    .image{
+        width: 91vw;
+        height: 30vh;
+    }
+    .para{
+        padding-right: 1rem;
+    }
+    .text{
+        margin-right: 0.5rem;
+    }
+    .date{
+        padding: .3rem .5rem .3rem .5rem;
+    }
+    .ul{
+        visibility: hidden;
+    } 
+    #link-stablo{
+        visibility: visible;
+        margin:-.5rem 2rem 0rem -13.4rem;
+    }
+    #stablo {
+        visibility: visible;
+        margin: 0rem;
+        font-size: 2.5rem;
+    }
+    .paragraph{
+        font-size: .8rem;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+}
+@media (min-width:320px) and (max-width:767px) {
+     .card-container{
+        margin:  2rem auto
+    }
+    .navbar{
+        height: 10vh;
+    }
+    .card{
+        height:min-content;
+        width: min-content;
+        margin:  1rem auto;
+    } 
+    .image{
+        width: 79vw;
+        height: 34vh;
+    }
+    .ul{
+        visibility: hidden;
+    } 
+    #link-stablo{
+        visibility: visible;
+        margin:0rem 8rem 0rem -13.4rem;
+    }
+    #stablo {
+        visibility: visible;
+        margin: 0rem;
+        font-size: 2.5rem;
+    }
+    .heading{
+        font-size: 2.2rem;
+    }
+    .paragraph{
+        font-size: 0.9rem;
+    }
+    .para{
+        font-size: 1rem;
+    text-align: justify;
+    }
+    .text{
+        margin-right: 3.5rem;
+        font-size: 1.2rem;
+    }
+    .date{
+        padding: .2rem .5rem .2rem .5rem;
+    }
+}
+@media (min-width:768px)and (max-width:1000px) {
+    .card-container{
+        margin:  2rem auto
+    }
+    .navbar{
+        height: 12vh;
+    }
+    .ul{
+        visibility: hidden;
+    } 
+    #link-stablo{
+        visibility: visible;
+        margin:0rem 0rem 0rem -35rem;
+    }
+    #stablo {
+        visibility: visible;
+        margin: 0rem;
+        font-size: 4rem;
+    }
+    .card{
+        height:min-content;
+        width: min-content;
+        margin:  1rem auto;
+    } 
+    .image {
+        width: 64vw;
+        height: 35vh;
+    }
+    .div{
+        margin-bottom: 2rem;
+        margin-top: .7rem;
+       
+    }
+    .heading{
+        font-size: 3.5rem;
+    }
+    .paragraph{
+        font-size: 1.2rem;
+    }
+    .heading-3{
+        font-size: 1.3rem;
+    }
+    .para{
+        font-size: 1.27rem;
+    }
+    .text{
+        font-size: 1.7rem;
+        margin-top: 1rem;
+    }
+    .date{
+        font-size: 1.5rem;
+    }
+}
