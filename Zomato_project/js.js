@@ -62,3 +62,17 @@ upArrow.style.transition="all .4s"
 // }
 // click++;
 // }
+
+// footer: button India hover
+let positionIndia = document.getElementById('position-india');
+let hoverIndia = document.querySelector('.hover-india');
+let attachedHoverIndia = document.querySelector('.attached-hover-india');
+let section = document.querySelector('section');
+positionIndia.addEventListener('click',()=>{
+    hoverIndia.style.visibility= "visible";
+    attachedHoverIndia.style.visibility="visible"
+})
+section.addEventListener('click',()=>{
+    hoverIndia.style.visibility= "hidden";
+    attachedHoverIndia.style.visibility="hidden";
+})
