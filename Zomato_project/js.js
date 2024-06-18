@@ -35,44 +35,80 @@ seeLessDiv.addEventListener('click',()=>{
 })
 
 // Explore option
-let divOpenPopular = document.querySelector('.Popular');
-let divClosePopular = document.querySelector('#popular');
-let upArrow = document.querySelector('.up-arrow');
-let hidden = document.querySelector('.hidden');
-let click =1;
+let divOpenNearme = document.querySelectorAll('.hidden-near-me');
+let divOpenNearMe = document.querySelectorAll('.hidden-top-near-me');
 
-divOpenPopular.addEventListener('click',()=>{
-// for(let i =0; i<=click;i++){
-//     if(i%2==0){
-hidden.style.display="block";
-upArrow.style.transform='rotate(-180deg)';
+// let divClosePopular = document.querySelector('#popular');
+
+
+divOpenNearme.forEach(div=>{
+    let hidden = div.nextElementSibling;
+    let upArrow = div.querySelector('.up-arrow');
+    let isHidden = true; // Initial state is hidden
+
+    div.addEventListener('click',()=>{
+        if(isHidden){
+            hidden.style.display="block";
+            upArrow.style.transform='rotate(-180deg)';
+            upArrow.style.transition="all .4s"
+        } else{
+            hidden.style.display="none";
+            upArrow.style.transform='rotate(0deg)';
+            upArrow.style.transition="all .4s"
+        }
+        isHidden =!isHidden;//Toggle the state
+
+})
+})
+divOpenNearMe.forEach(div=>{
+    let hidden = div.nextElementSibling;
+    let upArrow = div.querySelector('.up-arrow');
+    let isHidden = true; // Initial state is hidden
+
+    div.addEventListener('click',()=>{
+        if(isHidden){
+            hidden.style.display="grid";
+            upArrow.style.transform='rotate(-180deg)';
 upArrow.style.transition="all .4s"
-    // } else{
-        // hidden.style.display="none";
-        // upArrow.style.transform='rotate(180deg)';
-//     }
-// }
+        } else{
+            hidden.style.display="none";
+            upArrow.style.transform='rotate(0deg)';
+            upArrow.style.transition='all .4s'
+        }
+        isHidden =!isHidden;//Toggle the state
+
+})
 })
 
-    // }else{
-// divClosePopular.addEventListener('click',()=>{
-// hidden.style.display="none";
-// upArrow.style.trasform='rotate(180deg)';
-// })
-// }
-// click++;
-// }
 
 // footer: button India hover
 let positionIndia = document.getElementById('position-india');
-let hoverIndia = document.querySelector('.hover-india');
-let attachedHoverIndia = document.querySelector('.attached-hover-india');
-let section = document.querySelector('section');
+let hoverIndia = document.getElementsByClassName('hover-india');
+let attachedHoverIndia = document.getElementsByClassName('attached-hover-india');
+let footerContaint = document.querySelector('.footer-containt');
 positionIndia.addEventListener('click',()=>{
+    console.log("hello");
     hoverIndia.style.visibility= "visible";
     attachedHoverIndia.style.visibility="visible"
 })
-section.addEventListener('click',()=>{
+footerContaint.addEventListener('click',()=>{
     hoverIndia.style.visibility= "hidden";
     attachedHoverIndia.style.visibility="hidden";
 })
+// positionIndia.forEach(div=>{
+//     let hide = div.nextElementSibling;
+//     let hoverIndia = div.querySelector('.hover-india');
+//     let attachedHoverIndia = div.querySelector('.attached-hover-india');
+//     let isHide = true;
+//     div.addEventListener('click',()=>{
+//         if (isHide) {
+//             hide.style.visibility= "visible";
+//             attachedHoverIndia.style.visibility="visible"
+//             hoverIndia.style.visibility= "visible";
+//         } else {
+//             hide.style.visibility= "hidden";
+//                attachedHoverIndia.style.visibility="hidden";
+//         }
+//         isHide =!isHide;
+//     })
+// })

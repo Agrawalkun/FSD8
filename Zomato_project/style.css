@@ -656,10 +656,12 @@ border-bottom: 1px solid #000;
     border-radius: .5rem;
     position: relative;
     top:-3.6rem;
-    left: 20rem;
+    left: 29rem;
+    z-index: 5;
+    opacity: 1;
     box-shadow: rgba(0, 0, 0, 0.15) 0.1rem 4rem 4rem;
     background-color: rgb(255, 255, 255);
-    visibility: hidden;
+  visibility: hidden;
 }
 /* .hover-india:hover{
     visibility: visible;
@@ -670,13 +672,14 @@ border-bottom: 1px solid #000;
     width: 1.3rem;
     height: 1.3rem;
     position: absolute;
-    top:-.1rem;
-    left: 58rem;
-    z-index: 2;
+    top:9.6rem;
+    left: 57.9rem;
+    z-index: 6;
     transform: rotate(45deg);
-    border-radius: .3rem;
+    border-radius: .15rem;
     background-color: rgb(255, 255, 255);
-   box-shadow: rgba(0, 0, 0, 0.15) 0.1rem 4rem 4rem;
+  
+   /* box-shadow: rgb(12, 12, 12) 0.1rem 4rem 4rem; */
    visibility: hidden;
 }
 .select-btn-india{
@@ -690,14 +693,48 @@ border-bottom: 1px solid #000;
     background: rgb(237, 244, 255)
 }
 #india-div:hover{
-    background: rgb(248, 248, 248)
+    /* background: rgb(248, 248, 248) */
+    background: rgba(216, 214, 214, 0.363)
+}
+.lang-div-hover{
+    margin-left: .5rem;
+}
+.para-hover-div{
+    margin-top: .5rem;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+#lang-div{
+padding-right: .8rem;
+padding-top: 0;
+width:max-content;
+top: -13.5rem;
+    left: 14rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0.1rem 4rem 4rem;
+      visibility: hidden;
+      z-index: 6;
+}
+#lang-hover{
+    /* display: block;
+    width: 1.3rem;
+    height: 1.3rem;
+    position: absolute; */
+    top:9.6rem;
+    left: 64.9rem;
+     z-index: 7;
+   /* transform: rotate(45deg);
+    border-radius: .15rem;
+    background-color: rgb(255, 255, 255); */
+       visibility: hidden;
+  
+  
 }
 
 #uae-div{
     padding: 0.2rem 1.5rem 0.3rem 0
 }
 #uae-div:hover{
-    background: rgb(248, 248, 248)
+    background: rgba(216, 214, 214, 0.363)
 }
 #uae-icon{
     height: 1.3rem;

@@ -11,14 +11,15 @@
 
 <body>
     <div class="main-container">
-        <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" class="image" loading="lazy">
+        <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" class="image"
+            loading="lazy">
         <div class="navbar">
             <div class="left-nav">
                 <ul class="ulist">
                     <li class="list1"> <a href=""><i class="sc-rbbb40-1 iFnyeo sc-hTQSVH elDYvD" size="10"
                                 color="#FFFFFF"><svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="13"
                                     height="13" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-"
-                                    role="img" class="sc-rbbb40-0 gvsUip" >
+                                    role="img" class="sc-rbbb40-0 gvsUip">
                                     <title>download-app</title>
                                     <path
                                         d="M18.5793 9.18939H16.5865H16.3199C15.7307 9.18939 15.2529 9.6672 15.2529 10.2583V10.3742C15.2529 10.9659 15.7307 11.444 16.3207 11.444H18.3156H18.5793C19.1696 11.444 19.6488 10.9639 19.6488 10.3742L19.6477 10.2569C19.6488 9.6672 19.1696 9.18939 18.5793 9.18939Z">
@@ -99,7 +100,7 @@
                 </div>
                 <input type="text" placeholder="Full Name" class="form-input">
                 <input type="text" placeholder="Full Name" class="form-input">
-                <input type="checkbox"><span class="para-open">I agree to Zomato's</span> <span class="span"> <span
+                <input type="checkbox"><span class="para-open">I agree to Zomato's</span><span class="span"> <span
                         class="para-opeen">Terms of Services Privacy Policy</span></span>
                 and
                 <span class="span">Content Policies</span>
@@ -122,7 +123,7 @@
         </div>
 
     </div>
-    <section class="section" >
+    <section class="section">
         <div class="cards">
             <div class="card-1">
                 <img alt="Order Online"
@@ -578,7 +579,7 @@
                 Explore options near me
             </h3>
             <div class="Popular" id="popular">
-                <div class="near-me">
+                <div class="near-me hidden-near-me">
                     <p class="cuisine">Popular cuisines near me</p>
                     <i class="fa-solid fa-chevron-down icon-font-size up-arrow"></i>
                 </div>
@@ -665,7 +666,7 @@
                 </div>
             </div>
             <div class="Popular">
-                <div class="near-me">
+                <div class="near-me hidden-near-me">
                     <p class="cuisine">Popular restaurant types near me</p>
                     <i class="fa-solid fa-chevron-down icon-font-size up-arrow"></i>
                 </div>
@@ -764,7 +765,7 @@
                 </div>
             </div>
             <div class="Popular">
-                <div class="near-me">
+                <div class="near-me hidden-top-near-me">
                     <p class="cuisine">Top Restaurant Chains</p>
                     <i class="fa-solid fa-chevron-down icon-font-size up-arrow"></i>
                 </div>
@@ -817,7 +818,7 @@
                 </div>
             </div>
             <div class="Popular">
-                <div class="near-me">
+                <div class="near-me hidden-top-near-me">
                     <p class="cuisine">Cities We Deliver To</p>
                     <i class="fa-solid fa-chevron-down icon-font-size up-arrow"></i>
                 </div>
@@ -1025,17 +1026,17 @@
         <div class="footer-heading">
             <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&amp;crop=198:42;*,*"
                 alt="Zomato logo" class="footer-logo">
-                <span class="attached-hover-india"></span>
+            <span class="attached-hover-india"></span>
             <div class="hover-india">
-                <div class="select-btn-india "id="india-div">
+                <div class="select-btn-india " id="india-div">
                     <img class="thumb image-india" fetchpriority="high" data-pin-no-hover="true"
                         src="https://img.freepik.com/free-vector/illustration-india-flag_53876-27130.jpg?t=st=1710444591~exp=1710445191~hmac=79fda831d7e471cfbf712ac48f52992855037b42a86378e39c93a2d31788ad60"
                         alt="Free vector illustration of india flag">
                     <p class="text">India</p>
                 </div>
                 <div class="select-btn-india " id="uae-div">
-                    <img class=" image-india" id="uae-icon" fetchpriority="high" data-pin-no-hover="true" src="UAE-flag.png"
-                        alt="Free vector illustration of india flag">
+                    <img class=" image-india" id="uae-icon" fetchpriority="high" data-pin-no-hover="true"
+                        src="UAE-flag.png" alt="Free vector illustration of india flag">
                     <p class="text " id="uae-text">UAE</p>
                 </div>
 
@@ -1046,6 +1047,23 @@
                     alt="Free vector illustration of india flag">
                 <span class="span-india">India</span>
                 <i class="fa-solid fa-chevron-down arrow-icon "></i>
+            </div>
+            <span class="attached-hover-india" id="lang-hover"></span>
+            <div class="hover-india" id="lang-div">
+                <div class=" lang-div-hover">
+                    <p class="para-hover-div"> English </p>
+                    <p class="para-hover-div"> Türkçe </p>
+                    <p class="para-hover-div"> हिंदी </p>
+                    <p class="para-hover-div"> Português (BR) </p>
+                    <p class="para-hover-div"> Indonesian </p>
+                    <p class="para-hover-div"> Português (PT) </p>
+                    <p class="para-hover-div"> Español </p>
+                    <p class="para-hover-div"> Čeština </p>
+                    <p class="para-hover-div"> Slovenčina </p>
+                    <p class="para-hover-div"> Polish </p>
+                    <p class="para-hover-div"> Italian </p>
+                    <p class="para-hover-div"> Vietnamese </p>
+                </div>
             </div>
             <div class="india">
                 <i class="sc-rbbb40-1 iFnyeo" size="18" color="#1C1C1C"><svg xmlns="http://www.w3.org/2000/svg"

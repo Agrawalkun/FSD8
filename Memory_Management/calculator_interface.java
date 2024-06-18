@@ -40,7 +40,7 @@ int a = sc.nextInt();
 System.out.println("Enter the value of b");
 int b = sc.nextInt();
 System.out.println("Enter the operation");
-int ch = sc.next().charAt(0);
+char ch = sc.next().charAt(0);
 calculate calc = new calculate();
 switch (ch) {
     case '+':
@@ -60,7 +60,6 @@ switch (ch) {
     System.out.println("aenter the valid number");
         break;
 }
-      
         // calc.add(a,b);
         // calc.sub(a,b);
         // calc.mul(a,b);

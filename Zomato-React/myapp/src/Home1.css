@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*home page*/
+
+.main-container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+}
+.image{
+    height:65vh ;
+    width:100%;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    position: absolute;
+    width: 100%;
+    top: 8%;
+}
+.left-nav{
+    display: flex;
+/* background-color: brown; */
+/* position: absolute; */
+}
+.ulist{
+    column-gap: 0px;
+}
+.list1 a{
+    margin-left: .1rem;
+    font-size: 1.1rem;
+}
+.right-nav{
+display:flex;
+margin-left:27rem;
+/* width: 35vw; */
+/* background-color: blueviolet;  */
+/* position: absolute;
+/* right: 10%; */
+}
+ul{
+    display:flex;
+    column-gap: 48px;
+justify-content: space-between;
+
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-family: Okra, Helvetica, sans-serif;
+    cursor: pointer;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-family: Okra, Helvetica, sans-serif;
+
+}
+/* #signupOpen:active body{
+    background-color: rgba(0, 0, 0, 0.329);
+
+} */
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:30%;
+    flex-wrap: wrap;
+    border: 2px solid red;
+}
+.logo{
+position: absolute;
+ /* top: -21rem; */
+ height: min-content;
+ width: 19rem;
+}
+
+.heading{
+    position: absolute;
+    color:white;
+    top: 5rem;
+    width:70rem;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 3.1rem;
+    font-weight: lighter;
+    text-align: center;
+}
+.input-field{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 57rem;
+    background-color: white;
+    height: 4rem;
+    border-radius: .5rem;
+    top:10rem;
+}
+.icon{
+    margin-top: 1.4rem;
+    padding-left: .7rem;
+    width: 2.5rem;
+    background-color: white;
+    border-bottom-left-radius: .5rem;
+}
+svg{
+    font-size: 1rem;
+}
+select{
+    /* background-color: aqua; */
+    width: 23rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    border-right-color: #000000;
+    border-bottom-color: white;
+    border-top-color: white;
+    border-left-color: white;
+    font-family: Okra, Helvetica, sans-serif;
+    margin: .4rem auto;
+}
+.input{
+    display: flex;
+}
+input{
+    width: 30rem;
+    height: 4rem;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    border: none;
+   
+    font-size: 1.1rem;
+    font-family: Okra, Helvetica, sans-serif;
+  
+}
+.search{
+    display: flex;
+}
+
+/* sign in form */
+.form-container{
+    width: 100%;
+    height: 66rem;
+    background-color: #000000cb;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: -26rem;
+}
+.form{
+    width:27rem;
+    height: 31rem;
+    /* border: 2px solid red; */
+    position: fixed;
+    top:5rem;
+    border-radius:.5rem ;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    padding: 1.2rem 2rem;
+
+}
+.form-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.form-heading{
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+}
+.form-icon{
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.form-input{
+    border: 1px rgba(85, 85, 81, 0.342) solid ;
+    border-radius: .5rem;
+    margin-top: 2.3rem;
+    width: 24rem;
+    height: 3.2rem;
+    padding-left: .5rem;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+.flex-check{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid black;
+    width: 25rem;
+
+}
+.check{
+    display: block;
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-top: 1.1rem;
+    /* position: relative;
+    right: 14.3rem; */
+    /* border: 2px solid red; */
+}
+.checkbox{
+    /* display: inline; */
+    height: 1.1rem;
+    /* margin-top: 1.1rem; */
+    position: relative;
+    right: 14.5rem;
+    border: 3px solid rgb(156, 156, 156);
+    background: rgb(255, 255, 255);
+}
+.content{
+    border: 2px solid red;
+    font-size: clamp(.3rem,1vw,2rem);
+    margin-top: 1rem;
+    padding-left: .5rem;
+    width:24.26rem;
+
+
+}
+.para-open{
+    float: left;
+}

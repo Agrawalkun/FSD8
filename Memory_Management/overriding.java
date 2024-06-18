@@ -46,3 +46,8 @@ public class overriding {
         obj.eat();
     }
 }
+
+
+
+
+

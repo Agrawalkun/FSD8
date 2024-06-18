@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "create-app-react": "^1.0.6",
+    "create-react-app": "^5.0.1",
+    "myapp": "^0.0.0-1",
+    "react-router-dom": "^6.23.0",
+    "zomato": "^1.1.0"
+  }
+}

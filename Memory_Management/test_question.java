@@ -23,3 +23,22 @@ System.out.println();
 sc.close();
 }
 }
+// import java.util.*;
+// public class Solution {
+//     public static String compareIfElse(int a, int b) {
+//         // Write your code here
+//         Scanner sc = new Scanner(System.in);
+//          a = sc.nextInt();
+//          b = sc.nextInt();
+//         if(a>b){
+//             System.out.println("greater");
+
+//         }else if(a<b){
+//             System.out.println("smaller");
+//         } 
+//             sc.close();
+//         return "equal";
+    
+
+//     }
+// }

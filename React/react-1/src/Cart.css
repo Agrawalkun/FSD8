@@ -1,0 +1,36 @@
+h1{
+    margin-left: 7rem;
+}
+
+.container{
+    background-color: aquamarine;
+}
+li{
+    /* margin-top: 2rem; */
+    padding-top: 2rem;
+}
+.div-con{
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 1rem;
+}
+img{
+    width: 20rem;
+}
+.div-content{
+    /* border: 2px solid black; */
+    padding-left: 2rem;
+}
+button{
+    margin-top: -3rem;
+}
+.btnb{
+    margin-left: 7rem;
+    margin-top: .4rem;
+    border: 1px solid black;
+    margin-bottom: .3rem;
+}
+.total_price{
+    margin-left: 7rem;
+    margin-top: 1rem;
+}

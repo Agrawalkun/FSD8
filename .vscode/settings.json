@@ -9,5 +9,6 @@
   }
   },
   "java.project.explorer.showNonJavaResources": false,
-  "git.enabled": true
+  "git.enabled": true,
+  "java.debug.settings.onBuildFailureProceed": true
 }

@@ -1,4 +1,7 @@
-/* .App {
+/* *{
+  background-color: brown;
+} */
+.App {
   text-align: center;
 }
 
@@ -35,7 +38,13 @@
   to {
     transform: rotate(360deg);
   }
-} */
+}
 .h2{
   color: aqua;
+}
+input{
+  margin-top: 2rem;
+}
+button{
+  margin-top: 2rem;
 }

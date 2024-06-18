@@ -1,0 +1,59 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Document</title>
+    <link rel="stylesheet" href="/Server/Public/CSS/style.css">
+</head>
+
+<body>
+    <h3>
+        <%= Math.random()%>
+    </h3>
+    <h3>Hello</h3>
+    <form action="/user" method="get">
+
+        <fieldset>
+            <legend>Get vs Post</legend>
+            <Label for="name">name:</Label>
+        <input type="text" name="name" id="name" placeholder="enter your name">
+        </br>
+        </br>
+        <Label for="email">email:</Label>
+        <input type="email" name="email" id="email">
+    </br>
+    </br>
+        <Label for="password">password:</Label>
+        <input type="password" name="password" id="password">
+    </br>
+</br>
+<button> Submit</button>
+    </fieldset>
+    </form>
+
+
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h2>RESTful</h2>
+         <% for(let i of comments){   %>
+            <h2>id:  <%= i.id %>  </h2>
+            <p>name : <%= i.username %>  </p>
+            <p>comment : <%=  i.comment %>  </p>
+            <form action="/blogs/<%=i.id%>?_method=DELETE"  method="POST">
+<button> delete</button>
+            </form>
+        <% } %>
+    </body>
+    </html>
