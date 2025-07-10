@@ -33,7 +33,7 @@ console.log("Hello")
 
 let firstName ='gnfo'
 let lastname ='gfs'
-console.log(`${firstName} ${lastname}`) // it is used to concatinate or add the value we use the back kit to do this . there is no need to give space with the add operatorlike we give bellow
+console.log(`${firstName} ${lastname}`) // it is used to concatinate or add the value we use the back tik to do this . there is no need to give space with the add operatorlike we give bellow
 // we can also used the + operater 
 console.log(firstName + " "+lastname)
 // = vs == vs ===
@@ -101,7 +101,7 @@ for( let i in arr ){
     console.log(i)
 }
 //for of loop
-// point the value of hte array
+// point the value of the array
 // print the value 
 for( let i of arr ){
     console.log(i)
@@ -176,30 +176,6 @@ console.log(add)
 // a will point the value of the a
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-rray
 // b do the iteration like i++
 let arr4 =[1,2,3,4,5,67]
 let new4 = arr4.reduce((a,b,c,d)=>{
@@ -207,6 +183,7 @@ let new4 = arr4.reduce((a,b,c,d)=>{
 })
 console.log(new4)
 
-
-
+var yx = 2;
+ yx =3;
+console.log(yx)
 
