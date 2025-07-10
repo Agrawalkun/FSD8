@@ -53,13 +53,13 @@ SetCount(count+1)
 <Clock/> */}
  {/* <Bootstrap/> */}
 {/* <Card/> */}
-{/* <Navbar/>
+<Navbar/>
 <Routes>
   <Route path = '/' element={<Home/>}/>
   <Route path = '/aboutus' element={<About_Us/>}/>
   <Route path = '/contactus' element={<Contact_US/>}/>
 </Routes>
-<Count/> */}
+<Count/>
 {/* <Forms/> */}
 {/* <Context.Provider value={user}>
   /* <A/> 

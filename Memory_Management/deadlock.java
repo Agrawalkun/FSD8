@@ -22,6 +22,6 @@ public class deadlock {
                     System.out.println("Thread1:locked resource1");
                 }
             }
-        }
+        };
     }
 }
